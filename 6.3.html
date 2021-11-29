@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tugas pemrograman web</title>
+    <style>
+                * {
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: space-around;
+            margin: 5%;
+            background-color: rgb(117, 107, 107);
+        }
+        #satu {
+            display: flex;
+            margin-top: 5% ;
+            margin-bottom: 5%;
+            justify-content: space-between;
+        }
+        header,footer{
+            background: rgb(184, 233, 7);
+            height: 9vh;
+            width: 900px;
+        }
+        #satu>article {
+            background-color: rgb(73, 70, 70);
+            width: 600px;
+            height: 500px;
+            text-align: center;
+            padding-top: 30%;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+        }
+        .box {
+            text-align: center;
+            flex-direction: row;
+        }
+        .box1 {
+            width: 30%;
+            background: rgb(30, 150, 187);
+        }
+        .box2 {
+            width: 30%;
+            background: rgb(126, 119, 119);
+        }
+        .box3 {
+            width: 30%;
+            background: rgb(98, 7, 182);
+        }
+        #satu>aside {
+            background-color: rgb(91, 224, 64);
+            width: 250px;
+            height: 500px;
+        }
+        img {
+            width: 100px;
+        }
+
+    </style>
+    </head>
+        <body>
+            <div id="container">
+                <header>Header</header>
+                <div id="satu">
+                <aside>Aside</aside>
+                <article><h4>Article</h4> 
+                    <div class="container">
+                        <div class="box box1"><img src="a.jpg" alt=""></div>
+                        <div class="box box2"><img src="b.jpg" alt=""></div>
+                        <div class="box box3"><img src="c.jpg" alt=""></div>
+                    </div>
+                </article>
+                </div>
+                <footer>Footer</footer>
+            </div>
+        </body>
+</html>
